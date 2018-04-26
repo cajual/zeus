@@ -1,4 +1,4 @@
-# Zeus
+# Zeus - A test server for cajual.github.io
 
 To start your Phoenix server:
 
