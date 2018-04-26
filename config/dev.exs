@@ -51,8 +51,8 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :zeus, Zeus.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  username: "cajstyle",
+  password: "vatqeh82",
   database: "zeus_dev",
   hostname: "localhost",
   pool_size: 10
