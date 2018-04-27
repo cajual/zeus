@@ -8,6 +8,9 @@
     <h4>Resources</h4>
     <ul>
       <li>
+        <%= link "Users", to: user_path(@conn, :index) %>
+      </li>
+      <li>
         <a href="http://phoenixframework.org/docs/overview">Guides</a>
       </li>
       <li>
