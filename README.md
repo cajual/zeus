@@ -1,20 +1,16 @@
-# Zeus - A test server for cajual.github.io
+# Brunch app
 
-To start your Phoenix server:
+This is a HTML5 application, built with [Brunch](http://brunch.io).
 
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.create && mix ecto.migrate`
-  * Install Node.js dependencies with `cd assets && npm install`
-  * Start Phoenix endpoint with `mix phx.server`
-
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
-
-Ready to run in production? Please [check our deployment guides](http://www.phoenixframework.org/docs/deployment).
-
-## Learn more
-
-  * Official website: http://www.phoenixframework.org/
-  * Guides: http://phoenixframework.org/docs/overview
-  * Docs: https://hexdocs.pm/phoenix
-  * Mailing list: http://groups.google.com/group/phoenix-talk
-  * Source: https://github.com/phoenixframework/phoenix
+## Getting started
+* Install (if you don't have them):
+    * [Node.js](http://nodejs.org): `brew install node` on OS X
+    * [Brunch](http://brunch.io): `npm install -g brunch`
+    * Brunch plugins and app dependencies: `npm install`
+* Run:
+    * `npm start` — watches the project with continuous rebuild. This will also launch HTTP server with [pushState](https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Manipulating_the_browser_history).
+    * `npm run build` — builds minified project for production
+* Learn:
+    * `public/` dir is fully auto-generated and served by HTTP server.  Write your code in `app/` dir.
+    * Place static files you want to be copied from `app/assets/` to `public/`.
+    * [Brunch site](http://brunch.io), [Getting started guide](https://github.com/brunch/brunch-guide#readme)

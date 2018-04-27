@@ -1,27 +1,29 @@
-# App artifacts
-/_build
-/db
-/deps
-/*.ez
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
 
-# Generated on crash by the VM
-erl_crash.dump
+# OS or Editor folders
+.DS_Store
+.cache
+.project
+.settings
+.tmproj
+nbproject
+Thumbs.db
 
-# Generated on crash by NPM
-npm-debug.log
+# NPM packages folder.
+node_modules/
 
-# Static artifacts
-/assets/node_modules
+# Brunch folder for temporary files.
+tmp/
 
-# Since we are building assets from assets/,
-# we ignore priv/static. You may want to comment
-# this depending on your deployment strategy.
-/priv/static/
-
-# Files matching config/*.secret.exs pattern contain sensitive
-# data and you should not commit them into version control.
-#
-# Alternatively, you may comment the line below and commit the
-# secrets files as long as you replace their contents by environment
-# variables.
-/config/*.secret.exs
+# Brunch output folder.
+public/
